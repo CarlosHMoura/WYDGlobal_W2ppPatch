@@ -8093,7 +8093,7 @@ void DoGreatTeleport(int mob, int x, int y)
 
 BOOL SetAffect(int conn, int skillnum, int time, int Level)
 {
-	if (pMob[conn].MOB.Merchant == 1 || conn > MAX_USER)
+	if (pMob[conn].MOB.Merchant == 1)
 		return FALSE;
 
 	int sAffectType = g_pSpell[skillnum].AffectType;
@@ -8112,7 +8112,7 @@ BOOL SetAffect(int conn, int skillnum, int time, int Level)
 	pMob[conn].Affect[EmptyAffect].Type = sAffectType;
 	pMob[conn].Affect[EmptyAffect].Value = g_pSpell[skillnum].AffectValue;
 
-	int sTime = (g_pSpell[skillnum].AffectTime + 1) * time / 100;
+	int sTime = (g_pSpell[skillnum].AffectTime + 1) * time / 80;
 
 	if(sType == 1 || sType == 3 || sType == 10)
 		sTime = 4;
@@ -8140,7 +8140,10 @@ BOOL SetAffect(int conn, int skillnum, int time, int Level)
 
 BOOL SetTick(int mob, int skillnum, int Delay, int Level)
 {
-	if (pMob[mob].MOB.Merchant == 1 && mob > MAX_USER)
+	if (pMob[mob].MOB.Merchant == 1)
+		return FALSE;
+
+	if (skillnum == 20)
 		return FALSE;
 
 	int sTickType = g_pSpell[skillnum].TickType;
