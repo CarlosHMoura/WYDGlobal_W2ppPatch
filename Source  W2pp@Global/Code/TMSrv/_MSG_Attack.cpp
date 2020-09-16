@@ -511,6 +511,28 @@ void Exec_MSG_Attack(int conn, char *pMsg)
 				continue;
 			}
 
+			/*Proteção não permitindo uso de skill's que não foram aprendidas */
+			if (skillnum && skillnum >= 96 && skillnum <= 102) //livros sephira
+			{
+				int newskillnum = skillnum - 72;
+				if (!pMob[conn].MOB.LearnedSkill & (1 << newskillnum))
+				{
+					Log("SKILL SEPHIRA UTILIZADA NAO FOI APRENDIDA, SUSPEITA DE HACK", pUser[conn].AccountName, pUser[conn].IP);
+					SendClientMessage(conn, "Você não aprendeu esta skill.");
+					return;
+				}
+			}
+			else
+			{
+				int skillpos = skillnum % 24;
+				if (!pMob[conn].MOB.LearnedSkill & (1 << skillpos))
+				{
+					Log("SKILL COMUM UTILIZADA NAO FOI APRENDIDA, SUSPEITA DE HACK skillnum %d", pUser[conn].AccountName, pUser[conn].IP);
+					SendClientMessage(conn, "Você não aprendeu esta skill.");
+					return;
+				}
+			}
+
 			int unk2 = 0;
 			int InstanceType = g_pSpell[skillnum].InstanceType;
 
