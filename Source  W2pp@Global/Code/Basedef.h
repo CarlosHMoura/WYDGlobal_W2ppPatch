@@ -138,7 +138,7 @@
 #define		TIMER_MIN				1
 
 #define		MAX_ITEMLIST			6500
-#define		MAX_SKILLINDEX			103
+#define		MAX_SKILLINDEX			248
 #define		MAX_INITITEM			256
 #define		MAX_EFFECTINDEX			255
 #define		ITEMNAME_LENGTH			64

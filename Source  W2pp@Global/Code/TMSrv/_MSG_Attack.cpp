@@ -1195,16 +1195,15 @@ void Exec_MSG_Attack(int conn, char *pMsg)
 				int idxlevel = pMob[idx].extra.ClassMaster == MORTAL || pMob[idx].extra.ClassMaster == ARCH ? pMob[idx].MOB.CurrentScore.Level : pMob[idx].MOB.CurrentScore.Level + MAX_LEVEL;
 				int connlevel = pMob[conn].extra.ClassMaster == MORTAL || pMob[idx].extra.ClassMaster == ARCH ? pMob[conn].MOB.CurrentScore.Level : pMob[conn].MOB.CurrentScore.Level + MAX_LEVEL;
 
-				int difLevel = (idxlevel - connlevel) / 2;
-
-				difLevel = -difLevel;
-
 				if (affectresist >= 1 && affectresist <= 4)
 				{
 					int random = rand() % 100;
 
-					if (random > pMob[idx].MOB.RegenMP + affectresist + difLevel)
-						SameLeaderGuild = 0;
+					if (random > pMob[idx].MOB.RegenMP + affectresist + pMob[idx].MOB.Resist[affectresist])
+					{
+						if (rand() % 3 == 1)
+							SameLeaderGuild = 0;
+					}
 				}
 
 				if ((pMob[idx].MOB.Rsv & 0x80) != FALSE)
