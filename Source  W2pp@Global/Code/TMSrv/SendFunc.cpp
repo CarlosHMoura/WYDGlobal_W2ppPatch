@@ -553,7 +553,7 @@ void SendAutoTrade(int conn, int otherconn)
 	sm.Type = _MSG_SendAutoTrade;
 	sm.Size = sizeof(MSG_SendAutoTrade);
 
-	if (!pUser[conn].cSock.AddMessage((char*)&sm, sizeof(MSG_UpdateCarry)))
+	if (!pUser[conn].cSock.AddMessage((char*)&sm, sizeof(MSG_SendAutoTrade)))
 		CloseUser(conn);
 }
 
