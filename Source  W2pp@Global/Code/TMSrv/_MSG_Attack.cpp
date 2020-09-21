@@ -1695,16 +1695,8 @@ void Exec_MSG_Attack(int conn, char *pMsg)
 				int partyMemberId = pMob[mleader].PartyList[r];
 				if (partyMemberId <= MAX_USER)
 					continue;
-
-				if (pMob[partyMemberId].Mode == MOB_EMPTY || pMob[partyMemberId].MOB.CurrentScore.Hp <= 0)
-				{
-					if (pMob[partyMemberId].Mode != MOB_EMPTY)
-						DeleteMob(partyMemberId, 1);
-
-					pMob[mleader].PartyList[r] = MOB_EMPTY;
-				}
-				else
-					SetBattle(partyMemberId, idx);
+				
+				SetBattle(partyMemberId, idx);
 			}
 
 
@@ -1717,16 +1709,8 @@ void Exec_MSG_Attack(int conn, char *pMsg)
 				int ptMemberId = pMob[mleader].PartyList[r];
 				if (ptMemberId <= MAX_USER)
 					continue;
-
-				if (pMob[ptMemberId].Mode == MOB_EMPTY || pMob[ptMemberId].MOB.CurrentScore.Hp <= 0)
-				{
-					if (pMob[ptMemberId].Mode != MOB_EMPTY)
-						DeleteMob(ptMemberId, 1);
-
-					pMob[mleader].PartyList[r] = MOB_EMPTY;
-				}
-				else
-					SetBattle(ptMemberId, conn);
+				
+				SetBattle(ptMemberId, conn);
 			}
 		}
 	}
