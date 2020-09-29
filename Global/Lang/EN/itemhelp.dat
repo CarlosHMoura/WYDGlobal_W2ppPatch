@@ -1934,9 +1934,9 @@ FFFFFFFF
 FFFFFFFF Fill the character's hunger
 FFFFFFFF bar for a long time        
 FFFFFFFF 
-FFFF0000 > effect : +2.000 damage against    
+FFFF0000 > effect : +4.000 damage against    
 FFFF0000   monsters.      
-FFFF0000 > duration : 4 hours,      
+FFFF0000 > duration : 12 hours,      
 FFFF0000         
 3315 
 FFFF00FF [Premium Item]
@@ -2392,12 +2392,12 @@ FFFF0000   level 6.
 FFFF00FF [Premium_Item]
 FFFFFFFF 
 FFFFFFFF When_you_use_this_you_can_get
-FFFFFFFF damage_about_+2000
+FFFFFFFF damage_about_+6000
 FFFFFFFF 
 FFFF0000 『 Increased_damage_isn't_applied in PK
 FFFF0000 Only_can_be_applied_damage
 FFFF0000 to_monster
-FFFF0000 『Sustainment time :30days (a one time)
+FFFF0000 『Sustainment time :7days (a one time)
 3379 
 FFFF00FF [Premium_Item]
 FFFFFFFF 
@@ -3101,12 +3101,12 @@ FFFF0000
 3461 
 FFFF00FF [Premium Item]
 FFFFFFFF 
-FFFFFFFF Mount_breed_smelting_item
+FFFFFFFF 
 FFFFFFFF 
 FFFF0000 
 FFFF0000 
 FFFF0000 
-FFFF0000 『 Only can be used with Mount_breed
+FFFF0000 
 FFFF0000 
 3462 
 FFFF00FF [Unique_Item]
@@ -4328,6 +4328,16 @@ FFFFFFFF Drop_Bouns_50%
 FFFFFFFF 
 FFFFFFFF 
 FFFFFFFF 
+4055
+FFFF00FF [ Event Item]
+FFFFFFFF 
+FFFFFFFF Deliver to event NPCs to receive rewards
+FFFFFFFF 
+FFFFFFFF 
+FFFF0000 Use permitted only in the current event.
+FFFF0000 After the event the item will be deleted!
+FFFFFFFF More information on the website.
+FFFFFFFF 
 4056 
 FFFF00FF [Quest_Item]
 FFFF00FF 
@@ -5210,13 +5220,13 @@ FFFFFFFF
 FFFF0000 Continent_is_opened.
 4906 
 FFFFFFFF 
-FFFFFFFF It can be changed to coupon merchant in Armia town
-FFFFFFFF with item
+FFFFFFFF This item can be exchanged for 
+FFFFFFFF rewards at the merchant located in Armia.
 FFFFFFFF 
 FFFFFFFF 
 FFFFFFFF 
-FFFF0000 『Coupon merchant_Location_(2069,2063)
-FFFF0000 
+FFFF0000 Note: This item will be deleted periodically,
+FFFF0000 immediate use is advised.
 FFFFFFFF 
 4909 
 FFFFFFFF 
@@ -7148,3 +7158,73 @@ FFFFFFFF
 FFFF00FF +16% EXP gain
 FFFFFFFF 
 FFFFFFFF  
+4353
+FFFF00FF 
+FFFF00FF 
+FFFF00FF 
+FFFFFFFF 
+FFFFFFFF 
+FFFFFFFF 
+FFFF00FF +16% EXP / +32% Drop
+FFFFFFFF 
+FFFFFFFF 
+4354
+FFFF00FF 
+FFFF00FF 
+FFFF00FF 
+FFFFFFFF 
+FFFFFFFF 
+FFFFFFFF 
+FFFF00FF +16% EXP / +32% Drop
+FFFFFFFF 
+FFFFFFFF 
+4208
+FFFFFFFF
+FFFF00FF [MOUNT COSTUME]
+FFFFFFFF
+FFFFFFFF
+FFFFFFFF
+FFFFFFFF Use this item at NPC Ehre (2454 2004)
+FFFFFFFF to add a costume to your mount.
+FFFFFFFF Note1: The costume can be removed and reused.
+FFFFFFFF Note2: Mount with costume will become untradeable.
+4209
+FFFFFFFF
+FFFF00FF [MOUNT COSTUME]
+FFFFFFFF
+FFFFFFFF
+FFFFFFFF
+FFFFFFFF Use this item at NPC Ehre (2454 2004)
+FFFFFFFF to add a costume to your mount.
+FFFFFFFF Note1: The costume can be removed and reused.
+FFFFFFFF Note2: Mount with costume will become untradeable.
+4170
+FFFF00FF 
+FFFF00FF 
+FFFF00FF 
+FFFFFFFF 
+FFFFFFFF 
+FFFFFFFF 
+FFFF00FF +16% EXP / +32% Drop
+FFFFFFFF 
+FFFFFFFF 
+3461
+FFFF00FF 
+FFFF00FF Item used to refine mount essences,
+FFFF00FF increasing your chance of success.
+FFFFFFFF 
+FFFFFFFF 
+FFFFFFFF 
+FFFF00FF 
+FFFFFFFF 
+FFFFFFFF 
+4177
+FFFF00FF 
+FFFF00FF 
+FFFF00FF 
+FFFFFFFF 
+FFFFFFFF 
+FFFFFFFF 
+FFFF00FF +16% EXP / +32% Drop
+FFFFFFFF 
+FFFFFFFF 

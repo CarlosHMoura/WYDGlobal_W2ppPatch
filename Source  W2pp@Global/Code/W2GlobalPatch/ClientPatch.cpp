@@ -1,13 +1,19 @@
 #include "pch.h"
 
+//24092020
+#define CHECKSUM_ITEMLIST_ADDR	0x00567153
+#define CHECKSUM_EXTRAITEM_ADDR	0x005672AA
+#define CHECKSUM_SKILLDATA_ADDR	0x00567052
+
+
 bool ClientPatch::Initialize()
 {
 	static auto& hook = Singleton<HookMgr>::instance();
 
 	unsigned int checksumAddrs_27032020[] = {
-		/*ItemList*/0x005645B3 ,
-		/*ExtraItem*/0x0056470A,
-		/*SkillData*/0x005644B2
+		/*ItemList*/CHECKSUM_ITEMLIST_ADDR ,
+		/*ExtraItem*/CHECKSUM_EXTRAITEM_ADDR,
+		/*SkillData*/CHECKSUM_SKILLDATA_ADDR
 	};
 	BYTE checkValue[] = { 0xEB,0xEB ,0xEB };
 

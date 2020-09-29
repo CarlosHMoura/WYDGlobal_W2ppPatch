@@ -57,13 +57,13 @@ int  CMob::StandingByProcessor(void)
 {
 	int rt = FALSE;
 
-	if (IsSummon && !Affect[0].Time)
+	if (IsSummon == 2 && !Affect[0].Time)
 		return 256;
 
 	short mobface = MOB.Equip[0].sIndex;
 
 	if (Affect[0].Type != 24 && mobface == 358)
-		return 32;;
+		return 32;
 
 	if (IsSummon && !Affect[0].Time && (mobface == 206 || mobface == 226 || mobface == 227 || mobface == 244 || mobface == 245 || mobface == 225 || mobface == 307 || mobface == 396))
 	{
