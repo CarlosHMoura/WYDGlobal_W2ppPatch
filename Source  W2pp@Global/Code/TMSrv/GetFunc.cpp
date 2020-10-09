@@ -613,12 +613,14 @@ int GetEmptyAffect(int mob, int type)
 	{
 		if (pMob[mob].Affect[i].Type == type)
 			return i;
+	}
 
+	for (int i = 1; i < MAX_AFFECT; i++)
+	{
 		if (pMob[mob].Affect[i].Type == 0)
 			return i;
 	}
  
-
 	return -1;
 }
  
