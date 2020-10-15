@@ -278,6 +278,18 @@ public:
             return;
     }
 
+	template<typename I>
+	void setByteValue(unsigned int hSourceAddress, I hValue)
+	{
+		DWORD protect = 0;
+		if (VirtualProtect(reinterpret_cast<LPVOID>(hSourceAddress), sizeof(I), PAGE_EXECUTE_READWRITE, &protect) == 0)
+			return;
+
+		*(unsigned char*)(hSourceAddress) = hValue;
+
+		if (VirtualProtect(reinterpret_cast<LPVOID>(hSourceAddress), sizeof(I), protect, &protect) == 0)
+			return;
+	}
 
     template<typename I>
     void setArrayValue(unsigned int *hSourceAddress, I *hValue,int count)
