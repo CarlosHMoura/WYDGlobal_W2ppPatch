@@ -1145,8 +1145,8 @@ FFFFFFFF Um_suculento_frango_assado._Melhora_a
 FFFFFFFF condição_do_personagem_através_da_comida.
 FFFFFFFF 
 FFFFFFFF 
-FFFF0000 Efeito:_+4.000 de dano contra monstros.
-FFFF0000 Duração:_12_horas._Efeito_não_cumulativo.
+FFFF0000 Efeito:_+2.000 de dano contra monstros.
+FFFF0000 Duração:_4_horas._Efeito_não_cumulativo.
 FFFFFFFF 
 3315
 FFFF00FF [Item_Premium]
@@ -1482,7 +1482,7 @@ FFFFFFFF
 FFFF00FF [Item_Premium]
 FFFFFFFF Aumenta_de_forma_randômica_a_vida
 FFFFFFFF útil_de_1_a_3._Grifo_Sangrento,
-FFFFFFFF Hipogrifo,_Grifon, Svadilfari, Sleipnir
+FFFFFFFF Hipogrifo,_Grifon
 FFFFFFFF 
 FFFFFFFF 
 FFFF0000 Obs._Vida_útil_máximo_é_de_60._Uso
@@ -1597,16 +1597,6 @@ FFFFFFFF
 FFFFFFFF 
 FFFFFFFF 
 FFFF0000 Obs._Máximo_até_+6.
-FFFFFFFF 
-3378
-FFFFFFFF Você_ganhará_+6000_de_ataque_por_um 
-FFFFFFFF determinado_tempo_após_utilizá-lo.
-FFFFFFFF 
-FFFFFFFF 
-FFFF0000 O_bonus_é_aplicado_apenas_em 
-FFFF0000 monstros,_e_não_em_outros_usuários
-FFFF0000 durante_o_modo_PvP.
-FFFF0000 Duração: 7 dias
 FFFFFFFF 
 3390
 FFFF00FF [Item_Premium]
@@ -2618,16 +2608,6 @@ FFFFFFFF
 FFFFFFFF
 FFFF0000 
 FFFF0000 
-4055
-FFFF00FF [_Item_de_Evento_]
-FFFFFFFF 
-FFFFFFFF Entregue aos NPCs do evento para receber
-FFFFFFFF recompensas.
-FFFFFFFF 
-FFFF0000 Uso permitido apenas no evento atual.
-FFFF0000 Após o evento o item será apagado! 
-FFFFFFFF Mais_informações_no_website.
-FFFFFFFF 
 4080
 FFFF00FF [_Item_de_Quest_]
 FFFFFFFF 
@@ -2920,13 +2900,13 @@ FFFF0000 -_O_item_sumirá_quando_acabar_o_prazo.
 FFFFFFFF   
 4906
 FFFFFFFF 
-FFFFFFFF Este_item_pode_ser_trocado_em
-FFFFFFFF seu respectivo NPC na cidade de Armia.
+FFFFFFFF Este_item_pode_ser_trocado_no
+FFFFFFFF NPC_EventCoupon,_na_cidade_de_Armia.
 FFFFFFFF 
 FFFFFFFF 
 FFFFFFFF 
-FFFF0000 Obs: Esse item será apagado periodicamente,
-FFFF0000 o uso imediato é aconselhado.
+FFFF0000 -_Localização_do_NPC_2069,_2063
+FFFF0000 
 FFFF0000 
 4910
 FFFF00FF [Livros_de_10ª_Skill]
@@ -4988,276 +4968,6 @@ FFFFFFFF Use este item no NPC Ehre (2454 2004)
 FFFFFFFF para adicionar um traje em sua montaria.
 FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
 FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4270
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4271
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4272
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4273
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4274
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4275
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4276
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4277
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4278
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4279
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4279
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4280
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4281
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4282
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4283
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4284
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4285
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4286
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4287
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4288
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4289
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4290
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4291
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4292
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4293
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4294
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4295
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
 4899 
 FFFF00FF [Item_Premium]
 FFFFFFFF 
@@ -5318,16 +5028,6 @@ FFFFFFFF Limite de participantes: 52
 FFFFFFFF 
 FFFF00FF  -----------------
 FFFFFFFF 
-4167
-FFFF00FF 
-FFFF00FF 
-FFFF00FF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFF00FF +16% EXP / +32% Drop
-FFFFFFFF 
-FFFFFFFF 
 4173
 FFFF00FF 
 FFFF00FF 
@@ -5336,26 +5036,6 @@ FFFFFFFF
 FFFFFFFF 
 FFFFFFFF 
 FFFF00FF +16% no ganho de EXP
-FFFFFFFF 
-FFFFFFFF 
-4176
-FFFF00FF 
-FFFF00FF 
-FFFF00FF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFF00FF +16% EXP / +32% Drop
-FFFFFFFF 
-FFFFFFFF 
-4177
-FFFF00FF 
-FFFF00FF 
-FFFF00FF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFF00FF +16% EXP / +32% Drop
 FFFFFFFF 
 FFFFFFFF 
 5905
@@ -5388,73 +5068,3 @@ FFFFFFFF
 FFFF00FF +16% no ganho de EXP
 FFFFFFFF 
 FFFFFFFF  
-3997
-FFFF00FF 
-FFFF00FF 
-FFFF00FF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFF00FF +16% no ganho de EXP
-FFFFFFFF 
-FFFFFFFF 
-4353
-FFFF00FF 
-FFFF00FF 
-FFFF00FF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFF00FF +16% EXP / +32% Drop
-FFFFFFFF 
-FFFFFFFF 
-4354
-FFFF00FF 
-FFFF00FF 
-FFFF00FF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFF00FF +16% EXP / +32% Drop
-FFFFFFFF 
-FFFFFFFF 
-4208
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4209
-FFFFFFFF 
-FFFF00FF [TRAJE DE MONTARIA]
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF Use este item no NPC Ehre (2454 2004)
-FFFFFFFF para adicionar um traje em sua montaria.
-FFFFFFFF Obs1: O traje pode ser removido e reutilizado.
-FFFFFFFF Obs2: A montaria com traje se tornará imóvel.
-4170
-FFFF00FF 
-FFFF00FF 
-FFFF00FF 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFF00FF +16% EXP / +32% Drop
-FFFFFFFF 
-FFFFFFFF 
-3461
-FFFF00FF 
-FFFF00FF Item utilizado para refinar âmagos de montaria,
-FFFF00FF aumentando assim sua chance de sucesso. 
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFF00FF 
-FFFFFFFF 
-FFFFFFFF 

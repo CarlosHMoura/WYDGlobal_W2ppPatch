@@ -263,15 +263,3 @@
 264	Mantly
 265	E-Guild
 266	Battlefield
-267	Critical_Damage
-268	Critical_Defense
-269	PvP_Damage
-270	PvP_Defense
-271	Piercing_Damage
-272	Damage_Absorption
-273	Accuracy
-274	Evasion
-275	Mana_Reduction
-276	Basic
-277	Advanced
-278	New_Tax(??)

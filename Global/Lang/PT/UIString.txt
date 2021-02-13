@@ -259,15 +259,3 @@
 264	Manto
 265	Guilda_inimiga
 266	Battlefield
-267	Dano_Crítico
-268	Defesa_Crítica
-269	Dano_PvP
-270	Defesa_PvP
-271	Perfuração
-272	Absorção
-273	Precisão
-274	Evasão
-275	Economia_de_Mana
-276	Básico
-277	Avançado
-278	New_Tax(??)

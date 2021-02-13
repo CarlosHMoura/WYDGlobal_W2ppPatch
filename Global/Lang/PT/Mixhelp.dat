@@ -16,7 +16,7 @@ FFFFFFFF nível_de_refinação_abençoada_purificada,
 FFFFFFFF a_chance_de_sucesso_será_maior.
 FFFFFFFF Apenas_personagens_celestiais_a_partir_do
 FFFF0000 nível_200_poderá_realizar_esta_ação._Necessário
-FFFF0000 ao_menos_30.000.000_pontos_de_experiência.
+FFFF0000 ao_menos_20.000.000_pontos_de_experiência.
 FFFFFFFF (Impossibilitado_para_Hardcores)
 Combinação_da_Troca_de_Alma 10002 859
 FFFFFFFF Altera_o_tipo_da_alma_do_personagem_comum.
@@ -267,17 +267,7 @@ FFFFFFFF
 FFFF0000 Se_restaurar_a_aparência_da_montaria,
 FFFF0000 a_mesma_não_poderá_ser_trocada.
 FFFFFFFF
-FFFFFFFF 
-Bless_Stabilizer 10038 516
-FFFFFFFF Utilize dois estabilizadores e uma
-FFFFFFFF refinação abençoada para tentar
-FFFFFFFF aprimora-la. Não existe perda de EXP.
-FFFFFFFF 
-FFFFFFFF 
-FFFFFFFF 
-FFFF0000 Obs: Em caso de falha apenas os
-FFFF0000 estabilizadores serão destruidos. 
-FFFFFFFF 
+FFFFFFFF
 ROYAL_ARENA 10034 0
 FFFFFFFF Click aqui para registrar-se na
 FFFFFFFF "Arena Real". 
@@ -287,13 +277,4 @@ FFFFFFFF Hora para registro: 13:00/19:00/23:00
 FFFFFFFF Limite de participantes: 52
 FFFFFFFF 
 FFFF00FF  -----------------
-FFFFFFFF 
-Mount_UnLock 10040 460
 FFFFFFFF  
-FFFFFFFF Sistema utilizado para desbloquear 
-FFFFFFFF montarias nível 120 e 140.
-FFFFFFFF  
-FFFFFFFF 
-FFFFFFFF Obs: Existe chance de falha.
-FFFF0000  
-FFFF0000  

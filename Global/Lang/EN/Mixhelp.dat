@@ -15,8 +15,8 @@ FFFFFFFF as_higher_as_refine_value
 FFFFFFFF the_item's_refining_success	
 FFFFFFFF will_be_increased.	
 FFFFFFFF                                          	
-FFFF0000 more_than_Lv40_God2_can_do_this_quest	
-FFFF0000 it_needs_5000000_exp.(『Hardcore_can't)	
+FFFF0000 more_than_Lv200_God2_can_do_this_quest	
+FFFF0000 it_needs_20.000.000_exp.(『Hardcore_can't)	
 FFFFFFFF 	
 Change_Soul_type 10002 859	
 FFFFFFFF change_normal_character¨s_soul_type.	
@@ -267,23 +267,14 @@ FFFFFFFF
 FFFF0000 『trade after synthesis『	
 FFFFFFFF	
 FFFFFFFF	
-FFFFFFFF
-Refine_Bless_Refining 10038 516	
-FFFFFFFF when_you_refine_items_more_than_+12	
-FFFFFFFF you_can_use_this_instead_of_Secret_Stone	
-FFFFFFFF as_higher_as_refine_value	
-FFFFFFFF the_item's_refining_success	
-FFFFFFFF will_be_increased.	
-FFFFFFFF                                          	
-FFFF0000 more_than_Lv40_God2_can_do_this_quest	
-FFFF0000 『Hardcore_can't	
+FFFFFFFF	
+ROYAL_ARENA 10034 0
+FFFF00FF Click here to join the 
+FFFF00FF "Royal Arena" quest.
+FFFFFFFF ----------------------
+FFFFFFFF Allowed characters: god and god2
+FFFFFFFF Registration time: 13:00 / 19:00 / 23:00
+FFFFFFFF Participant Limit: 52
 FFFFFFFF 
-Mount_UnLock 10040 460
-FFFFFFFF  
-FFFFFFFF 	
-FFFFFFFF System used to unlock 120 and 140 mounts
-FFFFFFFF  
+FFFFFFFF ----------------------
 FFFFFFFF 
-FFFFFFFF                                          	
-FFFF0000  Note: There is a chance of failure.
-FFFF0000  
