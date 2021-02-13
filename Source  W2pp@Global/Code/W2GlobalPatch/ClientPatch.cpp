@@ -1,26 +1,29 @@
 #include "pch.h"
 
 //24092020
-#define CHECK_SUM_ITEMLIST		0x005645B3
-#define CHECK_SUM_EXTRAITEM		0x0056470A
-#define CHECK_SUM_SKILLDATA		0x005644B2
-#define CHECK_SUM_MOUNTDATA		0x005648F1
+#define CHECKSUM_ITEMLIST_ADDR	0x00567153
+#define CHECKSUM_EXTRAITEM_ADDR	0x005672AA
+#define CHECKSUM_SKILLDATA_ADDR	0x00567052
 
 
 bool ClientPatch::Initialize()
 {
 	static auto& hook = Singleton<HookMgr>::instance();
 
+	unsigned int checksumAddrs_27032020[] = {
+		/*ItemList*/CHECKSUM_ITEMLIST_ADDR ,
+		/*ExtraItem*/CHECKSUM_EXTRAITEM_ADDR,
+		/*SkillData*/CHECKSUM_SKILLDATA_ADDR
+	};
+	BYTE checkValue[] = { 0xEB,0xEB ,0xEB };
+
 	//Altera a Leitura da ServerList
 	//hook.setHook(eHookType::JMP, fServerListAddr_27032020, this->ChangeReadServerList());
 	//Controle de SendPacket
 	//hook.setHook(eHookType::JMP, SendPacketAddr_27032020, hook.getAddress(&ClientPatch::CSendpacket));
-
 	//Chemove o checksum do client
-	hook.setByteValue(CHECK_SUM_ITEMLIST, 0xEB);
-	hook.setByteValue(CHECK_SUM_EXTRAITEM, 0xEB);
-	hook.setByteValue(CHECK_SUM_SKILLDATA, 0xEB);
-	hook.setByteValue(CHECK_SUM_MOUNTDATA, 0xEB);
+	hook.setArrayValue<BYTE>(checksumAddrs_27032020, checkValue, sizeof(checksumAddrs_27032020) / sizeof(decltype(checksumAddrs_27032020)));
+
 
 	//hook.setHook(eHookType::JMP, 0x004EB830, hook.getAddress(&ClientPatch::SetLoadConstume));
 
